@@ -7,7 +7,7 @@ import useFetchData from "./hooks/useFetchData";
 
 
 function App() {
-  const {error,loading}=useFetchData()
+  const {loading}=useFetchData()
 
 return (
 <>
