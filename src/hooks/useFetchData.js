@@ -13,7 +13,7 @@ const useFetchData = () => {
       setLoading(true);
       try {
         const response = await axios.get('https://reqres.in/api/users');
-
+          console.log(response,"resss")
       
         dispatch(setUsers(response.data.data));
       } catch (err) {

@@ -5,7 +5,9 @@ import Button from './Button';
 import DeleteModal from './DeleteModal';
 
 const TableList = () => {
+
   const users = useSelector((state) => state.users.list);
+  console.log(users,"first")
   const[isDelete,setIsDelete]=useState(false)
   const [id,setiD]=useState("")
   const navigate=useNavigate()
