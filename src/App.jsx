@@ -4,6 +4,7 @@ import useFetchData from './hooks/useFetchData';
 import { useSelector } from 'react-redux';
 import ListTable from './pages/UsersList';
 import AddUser from './pages/AddUser';
+import DeleteModal from './components/DeleteModal';
 
 
 function App() {
