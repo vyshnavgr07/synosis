@@ -49,7 +49,7 @@ const TableList = () => {
                 </div>
               </td>
               <td className="px-4 py-4">{user.email}</td>
-              <td className="px-4 py-4 flex flex-wrap gap-2">
+              <td className="px-4 py-4 flex gap-2">
                 <Button
                   onClick={() => handleModal(user.id)}
                   className="bg-red-500 hover:bg-red-600"
