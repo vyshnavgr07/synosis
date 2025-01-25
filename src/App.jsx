@@ -2,11 +2,12 @@ import React from "react";
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import ListTable from './pages/UsersList';
 import AddUser from './pages/AddUser';
+import useFetchData from "./hooks/useFetchData";
 
 
 
 function App() {
-
+  const {error,loading}=useFetchData()
 
 return (
 <>

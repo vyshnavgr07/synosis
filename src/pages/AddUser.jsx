@@ -9,7 +9,6 @@ const AddUser = () => {
   const users = useSelector((state) => state.users.list);
   const navigate = useNavigate();
   const { id } = useParams(); 
-console.log(id,"fefdeferf")
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
   const [email, setEmail] = useState('');
@@ -44,7 +43,7 @@ console.log(id,"fefdeferf")
       email,
       avatar
     };
-
+console.log(userData,'userdataa')
     if (id) {
       dispatch(editUser({ id: parseInt(id), ...userData }));
     } else {
