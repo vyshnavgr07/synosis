@@ -36,7 +36,7 @@ const TableList = () => {
               className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"
             >
               <td className="px-4 py-4">{user.id}</td>
-              <td className="flex items-center px-4 py-4 text-gray-900 dark:text-white">
+              <td className="flex  mr-5 items-center px-4 py-4 text-gray-900 dark:text-white">
                 <img
                   className="w-10 h-10 rounded-full"
                   src={user.avatar}
