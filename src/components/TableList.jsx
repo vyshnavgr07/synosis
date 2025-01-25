@@ -39,12 +39,13 @@ const TableList = () => {
               <td className="px-4 py-4">{user.email}</td>
               <td className="px-4 py-4 flex flex-wrap gap-2">
                <Button  
-               onClick={()=>navigate(`/user/add/${user.id}`)}
-               className="bg-red-500"    
+           
+               className="bg-red-500 hover:bg-red-600"    
               >  
                  Delete
                </Button>
                <Button  
+            onClick={()=>navigate(`/user/add/${user.id}`)}
                className="bg-blue-500"    
               >  
                   Edit

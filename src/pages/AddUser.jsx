@@ -50,7 +50,7 @@ console.log(id,"fefdeferf")
     } else {
       dispatch(addUser({ id:users.length+1, ...userData }));
     }
-    navigate("/user/list");
+    navigate("/");
   };
 
   return (

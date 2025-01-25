@@ -12,7 +12,7 @@ const UsersList = () => {
       <div className="flex justify-between items-center mb-4 mt-5 ">
         <h1 className="text-2xl font-semibold text-gray-800 dark:text-white">User List</h1>
         <Button  
-        className="bg-green-500"    
+        className="bg-green-500 hover:bg-gree-600"    
         onClick={()=>navigate("/user/add")}>  
         Add </Button>
 

@@ -14,7 +14,7 @@ return (
 <>
 <BrowserRouter>
 <Routes>
-<Route path='user/list' element={<ListTable/>}/>
+<Route path='/' element={<ListTable/>}/>
 <Route path='user/add' element={<AddUser/>}/>
 <Route path='user/add/:id' element={<AddUser/>}/>
 </Routes>
